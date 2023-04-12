@@ -3,7 +3,7 @@
 #wrapper {
     /*background-image: url('../yosemite.jpg');
 background-size: cover;*/
-    background: tomato;
+    background: rgb(240, 225, 222);
     position: absolute;
     top: 0px;
     width: 100%;
@@ -25,7 +25,7 @@ background-size: cover;*/
 #m_nav_container {
     width: 100%;
     height: 200px;
-    background-color: rgb(6, 6, 112);
+    background-color: rgb(166, 166, 180);
     position: fixed;
     display: none;
     /*	opacity: 0;*/
@@ -41,21 +41,21 @@ background-size: cover;*/
 	list-style: none;
     padding: 0;
     margin: 1.5em 0 0 0;
-    background-color:rgb(2, 2, 77);
+    background-color:rgb(197, 197, 223);
 }
 .m_nav_item {
     margin-top: 15px;
 }
 .m_nav_item a {
     text-decoration: none;
-    color: rgb(230, 112, 112);
+    color: rgb(243, 223, 223);
     font-size: 1em;
     -webkit-transition-duration: 0.5s;
 	 padding: 0.5em;
 }
 .m_nav_item a:hover {
-    color: #7e1604;
-	background: rgb(236, 123, 123);
+    color: #f7afa2;
+	background: rgb(247, 226, 226);
    
 
 }
@@ -78,14 +78,14 @@ background-size: cover;*/
     z-index: 3;
     cursor: pointer;
     padding: .5em;
-    background:#ff6c5f;
+    background:#d8cfce;
 }
 /*class applied to create the lines*/
 
 .m_nav_ham {
     width: 35px;
     height: 5px;
-    background: #000;
+    background: #eed9d9;
     margin: 5px auto;
 }
 .m_nav_ham_1_open {
@@ -110,7 +110,7 @@ In future releases this will be used to animate the m_nav_ham divs to form
 an X*/
 
 .button_open {
-    background: #000;
+    background: #948989;
     /*	-webkit-transform: rotate(45deg);*/
 }
 .button_closed {}
@@ -143,13 +143,13 @@ an X*/
 ==============================*/
 
 #section_1 {
-    background-color: #df32df;
+    background-color: #eccdec;
 }
 /*      Section 2
 ==============================*/
 
 #section_2 {
-    background-color: #47e3ff;
+    background-color: #b4edf7;
 }
 /*      Section 3
 ==============================*/
@@ -164,13 +164,13 @@ an X*/
 ==============================*/
 
 #section_4 {
-    background-color: #6347ff;
+    background-color: #ab9ff1;
 }
 /*      Section 5
 ==============================*/
 
 #section_5 {
-    background-color: #ffbf47;
+    background-color: #f8d698;
 }
 /*      Media Queries
 ==============================*/
@@ -212,10 +212,10 @@ an X*/
 }
 @media screen and (min-width: 1150px){
     #m_nav_container {
-		background:#000;
+		background:#dad6d6;
         text-align: center;
 		height: 125px !important;
-		box-shadow: 0 0 2px #000;
+		box-shadow: 0 0 2px #d4cbcb;
     }
 
 
@@ -228,7 +228,7 @@ an X*/
         line-height: 70px;
         margin-right: 52px;
         padding: 0.5em;
-        background: black;
+        background: rgb(192, 179, 179);
     }
     .m_nav_item a {
         margin-top: 10px;
